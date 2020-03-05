@@ -17,7 +17,7 @@ BEGIN
       tot_emps := tot_emps + 1; 
    RETURN(new_empno); 
 END;
-/* this is function*/
+/* Aden Commented this is function*/
 FUNCTION create_dept(department_id NUMBER, location_id NUMBER) 
    RETURN NUMBER IS 
       new_deptno NUMBER; 
